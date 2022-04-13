@@ -57,11 +57,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	MSG msg{};  // メッセージ
 
-// DirectX初期化処理　ここから
+	// DirectX初期化処理　ここから
 
-// DirectX初期化処理　ここまで
+	// DirectX初期化処理　ここまで
 
-// ゲームループ
+	// ゲームループ
 	while (true) {
 		// メッセージがある？
 		if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE)) {
